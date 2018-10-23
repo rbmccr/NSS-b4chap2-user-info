@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(136, 200, 212);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  height: 50%;
+  flex-basis: 40%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+fieldset {
+  width: 100%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+select {
+  width: 100%;
+  overflow: hidden;
+}
+
+button {
+  width: 75%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0 25px 0;
+  background-color: rgb(88, 155, 168);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.database-info {
+  height: 90%;
+  flex-basis: 40%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.database-info h1 {
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.post {
+  width: 80%;
+  height: 80%;
+  margin: 5px;
+  border: 1px solid gray;
+  padding: 0 10px 10px 10px;
+  overflow-y: auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gathering User Info</title>
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+      <fieldset>
+        <label for="lego__creator">Creator:</label>
+        <input id="lego__creator" name="lego__creator" type="text" autofocus />
+      </fieldset>
+      <fieldset>
+          <label for="lego__color">Brick Color:</label>
+          <select id="lego__color" name="lego__color" size="6"> 
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+            <option value="Orange">Orange</option>
+            <option value="Black">Black</option>
+        </select>
+      </fieldset>
+      <fieldset>
+          <label for="lego__shape">Describe the Shape:</label>
+          <input id="lego__shape" name="lego__shape" type="text" />
+      </fieldset>
+      <fieldset>
+          <label for="lego__creation">Name of Creation:</label>
+          <input id="lego__creation" name="lego__creation" type="text" />
+      </fieldset>
+      <button class="btn lego__save">Save Lego Creation</button>
+    </form>
+    <div class="database-info">
+      <h1>Database Information</h1>
+      <div class="post"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

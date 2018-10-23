@@ -1,0 +1,32 @@
+{
+  "lego": [
+    {
+      "id": 1,
+      "creator": "Brendan",
+      "color": "Blue",
+      "shape": "Car",
+      "creation": "Tesla Model X"
+    },
+    {
+      "creator": "Zac",
+      "color": "Green",
+      "shape": "Airplane",
+      "creation": "Airspeed Velocity of an Unladen Swallow",
+      "id": 2
+    },
+    {
+      "creator": "Joe",
+      "color": "Black",
+      "shape": "Cube",
+      "creation": "Box",
+      "id": 3
+    },
+    {
+      "creator": "Jase",
+      "color": "Yellow",
+      "shape": "Guitar",
+      "creation": "Fiesta",
+      "id": 4
+    }
+  ]
+}
